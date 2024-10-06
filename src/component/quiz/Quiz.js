@@ -10,7 +10,7 @@ const Quiz = () => {
   const [lock, setLock] = useState(false);
   const [score, setScore] = useState(0);
   const [result, setResult] = useState(false);
-  const [timer, setTimer] = useState(30);
+  const [timer, setTimer] = useState(5);
 
   let Option1 = useRef(null);
   let Option2 = useRef(null);
