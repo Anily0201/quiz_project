@@ -60,7 +60,7 @@ const Quiz = () => {
       setIndex((prevIndex) => prevIndex + 1);
       setQuestion(data[index + 1]);
       setLock(false);
-      setTimer(30); 
+      setTimer(10); 
       Option_array.forEach((Option) => {
         Option.current.classList.remove("wrong");
         Option.current.classList.remove("correct");
